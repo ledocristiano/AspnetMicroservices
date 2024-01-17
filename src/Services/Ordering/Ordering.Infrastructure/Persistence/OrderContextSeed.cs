@@ -1,10 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 using Ordering.Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Reflection.Emit;
 
 namespace Ordering.Infrastructure.Persistence
 {
@@ -30,7 +26,9 @@ namespace Ordering.Infrastructure.Persistence
                     LastName = "Admin",
                     EmailAddress = "ledotech@outlook.com",
                     AddressLine = "Est dos Fernandes",
+                    State = "São Paulo",
                     Country = "Brasil",
+                    ZipCode = "08700000",
                     TotalPrice = 350
                 }
             };
