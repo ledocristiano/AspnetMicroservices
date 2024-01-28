@@ -41,7 +41,7 @@ namespace Ordering.Application.Features.Orders.Commands.CheckoutOrder
         {
             var email = new Email()
             {
-                To = "ledotech@outlook.com",
+                To = "teste@teste.com",
                 Body = "Order was created.",
                 Subject = "Order was created"
             };

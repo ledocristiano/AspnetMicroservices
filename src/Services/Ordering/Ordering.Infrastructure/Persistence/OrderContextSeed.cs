@@ -24,11 +24,11 @@ namespace Ordering.Infrastructure.Persistence
                     UserName = "admin",
                     FirstName = "Admin",
                     LastName = "Admin",
-                    EmailAddress = "ledotech@outlook.com",
-                    AddressLine = "Est dos Fernandes",
+                    EmailAddress = "teste@teste.com",
+                    AddressLine = "Av. Paulista",
                     State = "São Paulo",
                     Country = "Brasil",
-                    ZipCode = "08700000",
+                    ZipCode = "00000000",
                     TotalPrice = 350
                 }
             };
